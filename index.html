@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@200,300,400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="Kirinyaga_Card">
+        <div class="Kukua_Kadi">
+            <div id="loginlogo" class="login-logo">
+                <img src="/Img/KyU_Logo" class="kyulogo" alt="Kirinyaga University ">
+            </div>
+
+            <form class="login-form" action="https://httpbin.org/get" method="get" id="login">
+                <div class="loginform">
+                    <input type="text" name="username" id="username" value="" placeholder="Username"
+                        autocomplete="username" required>
+                </div>
+                <div class="login-form-password form-group">
+                    <input type="password" name="password" id="password" value="" placeholder="Password"
+                        autocomplete="current-password" required>
+                </div>
+                <div class="login-form-submit form-group">
+                    <button class="loginbtn" type="submit" id="loginbtn">Log in</button>
+                </div>
+                <div class="Lostpassword">
+                    <li>
+                        <a href="">
+                    <li>
+                        <span>Lost password?</span>
+                    </li>
+                    </a>
+                    </li>
+                </div>
+            </form>
+            <form action="https://httpbin.org/get" method="get" class="mt-2">
+                <button class="guestbtn" type="submit">Access as a
+                    guest</button>
+            </form>
+            <div class="d-flex mt-2">
+                <button type="button" class="cookiesbtn"><span><i class="fa fa-question-circle"></i> Cookies
+                        notice</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

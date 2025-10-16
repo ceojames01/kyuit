@@ -1,0 +1,142 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(/IMG/Background);
+  background-size: cover;
+  background-position: center;
+  font-family: "General Sans", sans-serif;
+}
+
+input {
+  width: 94%;
+  height: 40px;
+  border-radius: 0.5rem;
+  margin-top: 15px;
+  border: 1px solid #8f959e;
+  /* transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  color: #495057; */
+  /* padding: 8px 16px; */
+}
+
+input:hover{
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  color: #495057;
+}
+
+button {
+  width: 95%;
+  height: 50px;
+  font-size: 16px;
+  margin-top: 15px;
+  border-radius: 0.5rem;
+  border-style: none;
+  /* border-color: black; */
+  cursor: pointer;
+}
+
+.Kukua_Kadi {
+  padding-top: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.Kirinyaga_Card {
+  padding: auto;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #1d2125;
+  text-align: left;
+  box-sizing: border-box;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  width: 40%;
+  margin: 0;
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.5rem;
+}
+
+.login-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.Lostpassword {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+input::placeholder {
+  font-size: 1rem;
+  padding: 8px 16px;
+}
+
+input:focus {
+  border-width: 3px;
+  border-color: #08de77;
+}
+
+.loginbtn {
+  background-color: #1E964F;;
+  color: white;
+  font-size: 18px;
+}
+
+.loginbtn:hover {
+  background-color: #0d720d;
+  transition: background-color 3s, ease-in-out;
+}
+
+a {
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+span {
+  color: #1E964F;
+}
+
+span:hover{
+  color: #0d720d;
+  transition: background-color 3s, ease-in-out;
+  text-decoration-line: underline;
+}
+
+.guestbtn {
+  height: 35px;
+  color: #1D2125;
+  background-color: #CED4DA;
+}
+
+.guestbtn:hover{
+  background-color: #777e88;
+  transition: background-color 3s;
+}
+
+.cookiesbtn {
+  background-color: #fff;
+  display: flex;
+  justify-content: end;
+  color: #1E964F;
+}
+
+.cookiesbtn:hover{
+  color: #0d720d;
+  text-decoration: underline;
+  transition: background-color 3s, ease-in-out;
+}
+
+i {
+  margin-right: 5px;
+}
+
